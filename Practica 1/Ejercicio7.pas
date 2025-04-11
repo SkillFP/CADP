@@ -27,9 +27,7 @@ begin
             PRIMERO:=Nombre;
         end
         else if (Tiempo<MEJOR2) then begin
-            PEOR2:=MEJOR2; 
-            MEJOR2:=Tiempo; 
-            ANTEULTIMO:=SEGUNDO;
+            MEJOR2:=Tiempo;
             SEGUNDO:=Nombre;
         end;
         if (Tiempo>PEOR1) then begin
